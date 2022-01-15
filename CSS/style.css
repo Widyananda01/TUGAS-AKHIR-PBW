@@ -1,0 +1,98 @@
+body{
+    background: black;
+}
+h1 {
+    text-align: center;
+}
+h6 {
+    font-size: 25px ;
+}
+
+.video {
+display: grid;
+grid-template-columns: auto auto auto auto auto auto auto;
+grid-gap: 10px;
+background-color:black;
+padding: 10px;
+color:rgb(255, 255, 255);
+text-decoration: none;
+}
+
+
+.genre{
+    display: grid;
+grid-template-columns: auto auto auto auto auto auto auto;
+grid-gap: 10px;
+background-color:black;
+padding: 10px;
+color:rgb(255, 255, 255);
+text-decoration: none;
+}
+
+.genre div :hover{
+    color:red;
+    opacity:0,5;  
+}
+.tulisan:hover{
+color:red;
+opacity:0,5;
+}
+
+.tulisan {
+    color:rgb(255, 255, 255);
+    cursor: pointer;
+}
+.menu{
+width:100%;
+background: black ;
+color: red;
+}
+.menu ul{
+margin:0;
+padding:0;
+list-style: none;
+line-height: 60px;
+}
+.menu li{
+float:left;
+}
+.menu ul li a{
+background: black;
+text-decoration: none;
+width: 100px;
+display: block;
+text-align:center;
+color: red;
+font-size: 15px;
+letter-spacing: 0,5px;
+}
+
+.search-form {
+margin-top:15px;
+float:right;
+margin-right:100px;
+
+}
+.searchbox {
+    background:none;
+}
+.tampilan{
+    position: relative;
+    margin: auto;
+}
+.tampilanvideo{
+    display: grid;
+grid-template-columns: auto auto auto ;
+padding: 10px;
+background-color:black;
+color:rgb(255, 255, 255);
+text-decoration: none;
+}
+
+
+input[type=text]{
+padding: 7px;
+border:none;
+font-size: 16px;
+}
+
